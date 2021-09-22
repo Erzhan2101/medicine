@@ -1,0 +1,37 @@
+.aside{
+    background-color: rgb(53,17,103);
+    width: 20%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+
+.content{
+    width: 80%;
+}
+
+.main{
+    display: flex;
+}
+
+.logo{
+    width: 180px;
+    margin: 0;
+    display: block;
+}
+
+.nav-item a{
+    color: white;
+    display: block;
+    padding: 10px 15px;
+}
+
+.nav-item a.active{
+    background-color: rgb(32, 6, 66);
+    border-left:7px solid #b00bc4;
+}
+
+.bxs-dashboard{
+    margin-right: 10px;
+}
