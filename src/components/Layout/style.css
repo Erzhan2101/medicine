@@ -25,11 +25,12 @@
     color: white;
     display: block;
     padding: 10px 15px;
+    border-left:7px solid  transparent;
 }
 
 .nav-item a.active{
     background-color: rgb(32, 6, 66);
-    border-left:7px solid #b00bc4;
+    border-left:7px solid  #b00bc4;
 }
 
 .bxs-dashboard{
