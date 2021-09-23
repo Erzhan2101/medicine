@@ -35,3 +35,7 @@
 .bxs-dashboard{
     margin-right: 10px;
 }
+
+.nav{
+    display: unset;
+}

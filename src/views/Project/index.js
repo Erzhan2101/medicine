@@ -38,7 +38,7 @@ const Project = () => {
     return (
         <>
             <div className='header'>
-                <img className="avatarca" src={avatar} alt=""/>
+                <img className="avatar" src={avatar} alt=""/>
             </div>
             <div className="project">
                 <h1 className="title">ПРОЕКТЫ</h1>

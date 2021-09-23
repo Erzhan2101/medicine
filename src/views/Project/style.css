@@ -10,7 +10,7 @@
     margin: 30px  30px;
 }
 
-.avatarca {
+.avatar {
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -26,9 +26,11 @@
 .title {
     margin-bottom: 20px;
     color: #351167FF;
+
 }
 
 .desk{
+    font-size: 19px;
     color: #747474;
 }
 
@@ -38,6 +40,7 @@
     color: #f3fafa;
     border: none;
     transition: .3s;
+
 }
 .btn:hover{
     background-color: rgba(191, 8, 212, 0.8);
@@ -45,6 +48,8 @@
 }
 
 .flex{
+    padding-top: 25px;
+    border-top: 4px solid #e2e2e2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,6 +81,7 @@ img{
     font-size: 20px;
     color: #0c0c0c;
     transition: .3s;
+    border-radius: 5px;
 }
 .btn-flex:hover{
     background-color: #b00bc4;
@@ -90,6 +96,7 @@ img{
     color: #747474;
     margin-left: 10px;
     transition: .3s;
+    border-radius: 5px;
 }
 
 .btn-no-flex:hover{
