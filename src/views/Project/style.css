@@ -19,6 +19,10 @@
     border: 1px solid #0c0c0c;
 }
 
+.calendar{
+    font-size: 15px;
+}
+
 .title {
     margin-bottom: 20px;
     color: #351167FF;
@@ -37,6 +41,7 @@
 }
 .btn:hover{
     background-color: rgba(191, 8, 212, 0.8);
+    color: #f3fafa;
 }
 
 .flex{
@@ -62,11 +67,7 @@ img{
     max-width: 100%;
 }
 
-.img{
-    height: 250px;
-    width: 450px;
-    border-bottom: 1px solid #686868;
-}
+
 
 .btn-flex{
     padding: 4px;
@@ -107,6 +108,7 @@ img{
 }
 
 .card{
+    margin-top: 15px;
     border: 1px solid #686868;
     box-shadow: 0 0 8px 2px #686868;
 }
@@ -123,4 +125,124 @@ img{
 .flex-modal{
     display: flex;
     flex-direction: column;
+}
+
+.btn-add{
+    border-radius: 5px;
+    font-size: 13px;
+    width: 100px;
+    margin-top: 13px;
+    background-color: #b00bc4;
+    color: #f3fafa;
+    border: none;
+    padding: 10px 15px;
+    margin-left: auto;
+    transition: .3s;
+}
+
+.btn-add:hover{
+    background-color: rgba(191, 8, 212, 0.8);
+    color: #f3fafa;
+}
+
+.grid-date{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.input-date{
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid #686868;
+    border-radius: 5px;
+    color: #0c0c0c;
+    transition: .3s;
+}
+
+.input-date:hover{
+    box-shadow: 0 0 4px 2px #b00bc4;
+}
+
+.ml{
+    margin-left: 14px;
+}
+
+.modal-input{
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border: 1px solid #686868;
+    border-radius: 5px;
+    color: #0c0c0c;
+    transition: .3s;
+}
+
+.modal-input:hover{
+    box-shadow: 0 0 4px 2px #b00bc4;
+}
+
+.input-img{
+    background-color: white;
+}
+
+/*==============*/
+
+.modal-window {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(51, 51, 51, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.modal-content {
+    max-width: 40%;
+    padding: 15px;
+    position: relative;
+    background-color: #e2e2e2;
+    color: #333333;
+    border-radius: 3.5px;
+}
+
+.close-modal {
+    position: absolute;
+    top: -13px;
+    right: 5px;
+    border: none;
+    font-size: 40px;
+    color: #b00bc4;
+    background:none;
+}
+
+.jsGridView{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.jsGridView .img-card{
+    height: 250px;
+    width: 100%;
+    border-bottom: 1px solid #686868;
+}
+
+.jsListView{
+    width: 100%;
+}
+
+.jsListView .card .img-card {
+    display: flex;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.jsListView .card {
+    flex-direction: unset;
 }
